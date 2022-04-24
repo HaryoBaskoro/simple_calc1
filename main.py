@@ -19,4 +19,11 @@ print("""Masukkan operasi:
         4 : perkalian""")
 operasi = int(input("Masukkan operasi: "))
 
-
+if operasi == 1 :
+    print ("angka1+angka2")
+elif operasi == 2:
+    print("angka1-angka2")
+elif operasi == 3:
+    print("angka1/angka2")
+elif operasi == 4:
+    print ("angka1*angka2")
